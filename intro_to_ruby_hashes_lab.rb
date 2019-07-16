@@ -33,16 +33,27 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
   if(hash[key])
+<<<<<<< HEAD
     hash[key] += 1
   else 
     hash[key] = 1
   end
   return hash
   
+=======
+    hash[key] += 1 
+  else 
+    hash[key] = 1 
+  end
+>>>>>>> 226878db36b27ff4d9578273b8dd9c6eec81b825
 end
 
 
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 226878db36b27ff4d9578273b8dd9c6eec81b825
   
